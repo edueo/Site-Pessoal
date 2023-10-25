@@ -1,5 +1,5 @@
 build:
-	jekyll build
+	JEKYLL_ENV=production jekyll build
 
 dev:
 	jekyll dev
